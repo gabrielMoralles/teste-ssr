@@ -11,4 +11,4 @@ app.get('*', (req, res) => {
 });
 app.use(require('prerender-node').set('prerenderToken', 'XG3JPbYqZlu0HoH11ch5'));
 
-app.listen(process.env.PORT || 8085);
+app.listen(process.env.PORT || 8080);
